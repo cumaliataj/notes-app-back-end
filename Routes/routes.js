@@ -1,4 +1,3 @@
-const userRoutes= require("./userRoutes");
-const peopleRoutes= require("./peopleRoutes");
+const userRoutes= require("./NotesRoutes");
 
-module.exports = [].concat(userRoutes,peopleRoutes);
+ module.exports = [].concat(userRoutes);
